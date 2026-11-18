@@ -427,7 +427,7 @@ export function App() {
                   <span className="minus-text">−200点（5個で終了！）</span>
                 </div>
                 <div className="rule-info-note">
-                  ✨ ステージクリアごとに難易度が上がり、エンドレスに挑戦可能！
+                  ✨ ステージクリアごとに難易度が上がり、<br />エンドレスに挑戦可能！
                 </div>
                 <p className="control-hint">
                   操作：マウス / タッチ / キーボード（← →）
