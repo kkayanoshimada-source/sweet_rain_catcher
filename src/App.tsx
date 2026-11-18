@@ -408,7 +408,7 @@ export function App() {
         {gameState === 'start' && (
           <div className="overlay-screen">
             <div className="card-panel">
-              <h1 className="game-title">🍫 Sweet Rain Catcher! 🍰</h1>
+              <h1 className="game-title">🍫Sweet Rain Catcher!🍰</h1>
               <p className="game-subtitle">
                 落ちてくるスイーツをカゴでキャッチしよう！
               </p>
