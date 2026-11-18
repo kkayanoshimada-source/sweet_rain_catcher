@@ -7,16 +7,23 @@
   -webkit-user-select: none;
 }
 
+html,
 body,
-html {
+#root {
   width: 100%;
   height: 100%;
+  max-width: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  display: block !important;
   overflow: hidden;
   background-color: #1a0b06;
   font-family: 'Hiragino Maru Gothic ProN', 'Yu Gothic', 'Meiryo', sans-serif;
 }
 
 .app-wrapper {
+  position: fixed;
+  inset: 0;
   width: 100vw;
   height: 100dvh;
   display: flex;
