@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite preview"
+    "build": "tsc && vite build"
   },
   "dependencies": {
     "react": "^18.3.1",
